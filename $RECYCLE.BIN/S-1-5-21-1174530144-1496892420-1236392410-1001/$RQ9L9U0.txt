@@ -1,0 +1,16 @@
+GIT 以及 GITHUB
+一、git的发展史，小故事
+二、bash中的一些基本命令
+  1 ls    列目录
+  2 cd    改变目录
+  3 mkdir 建立目录
+  4 rm    删除文件   -rf 命令的参数  删除目录
+
+三、利用git管理自己的软件（网站、文档）
+！！git只能管理文本文件
+1 git init  初始化当前目录
+2 git status 检查是否有文件被更改
+3 git add XXXX  将被修改的文件添加到要提交的列表中
+4 git commit -m "xxxxxx" 将提交列表中的文件正式作为一个新的文件版本提交，并附上本次修改的说明
+5 git log 查看日志（查看当前文件夹下软件的所有提交过的版本）
+6 git reset --hard ed4998 进行版本间的切换
